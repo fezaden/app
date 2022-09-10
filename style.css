@@ -1,3 +1,28 @@
+.myHead {
+  background-color: rgb(29, 59, 20);
+}
 
+.my-slide {
+  z-index: 3;
+  color: white;
+}
+.my-slide h2 {
+  color: #5be631c8;
+  font-size: 50px;
+}
+.my-slider h2 {
+  color: #5be631c8;
+}
 
-
+.my-slide .container h1 {
+  font-size: 5rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "RobotoSlab", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}

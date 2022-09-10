@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -17,77 +17,369 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <title>Farming Company</title>
-     <style>
-
-     </style>
-</head>
-<body>
-    <div class="container-fluid bg-success py-3 px-lg-5 d-none d-lg-block">
+    <style></style>
+  </head>
+  <body>
+    <header>
+      <div class="container-fluid myHead p-3">
         <div class="row">
-            <div class="col-md-6 text-center text-lg-left mb-2 mb-lg-0">
-                <div class="d-inline-flex align-items-center">
-                    <a href="" class="navbar-brand">
-                        <h1 class="text-uppercase text-dark mb-1">Farming Company</h1>
-                    </a>
-                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <a class="text-body pr-3" href=""><i class="fa fa-phone-alt mr-2"></i>+012 345 6789</a>
-                    <span class="text-body">|</span>
-                    <a class="text-body px-3" href=""><i class="fa fa-envelope mr-2"></i>info@example.com</a>
-                </div>
-            </div>
-            <div class="col-md-6 text-center text-lg-right">
-                <div class="d-inline-flex align-items-center">
-                    <a class="text-body px-3" href="">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                    <a class="text-body px-3" href="">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    
-                    <a class="text-body px-3" href="">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                    
-                </div>
-            </div>
+          <div class="col-4 my-lg-0">
+            <a href="index.html" class="navbar-brand"
+              ><img src="img/images/logo.png" alt="Logomuz"
+            /></a>
+          </div>
+          <div class="col-2 my-lg-0 p-3">
+            <a href="#" class="text-center"
+              ><img
+                src="img/icon/email1.png"
+                alt="mail"
+                class="nav-link"
+              />demo@gmail.com</a
+            >
+          </div>
+          <div class="col-2 my-3 my-lg-0 p-3">
+            <a href="#"
+              ><img
+                src="img/icon/call1.png"
+                class="nav-link"
+                alt=""
+              />+905454447777</a
+            >
+          </div>
+          <div class="col-lg-4 my-3 my-lg-0 p-2">
+            <a href="#" class="btn btn-social">
+              <img src="img/icon/Twitter.png" alt="" />
+            </a>
+            <a href="#" class="btn btn-social">
+              <img src="img/icon/linkedin.png" alt="" />
+            </a>
+            <a href="#" class="btn btn-social">
+              <img src="img/icon/instagram.png" alt="" />
+            </a>
+          </div>
         </div>
-    </div>
-    <div class="container-fluid position-relative nav-bar p-0 ">
-        <div class="position-relative px-lg-5" style="z-index: 9;">
-            <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 py-lg-0 pl-3 pl-lg-5">
-                
-                <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
-                    <div class="navbar-nav ml-auto py-0">
-                        <a href="index.html" class="nav-item nav-link active">Home</a>
-                        <a href="about.html" class="nav-item nav-link">About</a>
-                        <a href="service.html" class="nav-item nav-link">Service</a>
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
-                    </div>
-                    <form  class="d-flex" role="search">
-                        <input type="search" class="form-control me-2" placeholder="Arayınız">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
-
-                </div>
-            </nav>
+      </div>
+    </header>
+    <!-- header end  -->
+    <nav class="navbar navbar-expand-lg bg-dark p-3">
+      <div class="container">
+        <a class="navbar-brand text-white" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-white" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-white"
+                aria-current="page"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#about">Hakkında</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#iletişim">İletişim</a>
+            </li>
+          </ul>
         </div>
+      </div>
+    </nav>
+    <div
+      class="carousel slide carousel-fade position-relative"
+      id="mySlide"
+      data-bs-touch="false"
+      data-bs-interval="false"
+    >
+      <div class="position-absolute my-slide w-50" style="margin: 15rem">
+        <div class="container">
+          <h1 class="fw-bold">MOON</h1>
+          <h2 class="text-uppercase">Farming Company</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Perferendis, ab! Ad, molestiae? Itaque ducimus amet eum placeat
+            velit tempore consequuntur quam tenetur qui!
+          </p>
+          <a href="#" class="btn btn-light">About us</a>
+          <a href="#" class="btn btn-light ms-3">Get a quote</a>
+        </div>
+      </div>
+
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#mySlide"
+          data-bs-slide-to="0"
+          class="active"
+          aria-label="ilk slayt"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#mySlide"
+          data-bs-slide-to="1"
+          aria-label="ikinci slayt"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#mySlide"
+          data-bs-slide-to="2"
+          aria-label="üçüncü slayt"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#mySlide"
+          data-bs-slide-to="3"
+          aria-label="dördüncü slayt"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="1000">
+          <img
+            src="img/images/banner.jpg"
+            alt="slide 1"
+            class="d-block w-100 h-100"
+          />
+        </div>
+        <!-- <div class="carousel-item" data-bs-interval="1000">
+          <img
+            src="img/images/product_img2.jpg"
+            alt="slide 2"
+            class="d-block w-100 h-100"
+          />
+        </div>
+        <div class="carousel-item" data-bs-interval="1000">
+          <img
+            src="img/images/product_img3.jpg"
+            alt="slide 3"
+            class="d-block w-100 h-100"
+          />
+        </div>
+        <div class="carousel-item" data-bs-interval="1000">
+          <img
+            src="img/images/product_img4.jpg"
+            alt="slide 4"
+            class="d-block w-100 h-100"
+          />
+        </div> -->
+      </div>
+      <!--carousel inner end-->
     </div>
-    
+    <!--Carousel end-->
+    <!-- about start -->
+    <div class="container">
+      <div class="row">
+        <div class="col-6 mt-4 p-5 p-md-5 my-slider">
+          <h1 class="text-uppercase text-dark">About moon</h1>
+          <h2 class="text-uppercase">farm and company</h2>
+          <hr />
+          <p class="text-muted">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ex
+            deleniti cupiditate nulla ut recusandae debitis maxime, doloribus ea
+            nesciunt, facilis consectetur dolore eum totam! Deleniti mollitia
+            consectetur quis. Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Voluptatem exercitationem beatae pariatur numquam cum
+            laudantium minus? Eaque ullam sunt doloremque voluptatum aliquam
+            natus laboriosam quaerat suscipit, velit reiciendis pariatur
+            voluptates ducimus consectetur repudiandae obcaecati.
+          </p>
+          <a href="#" class="btn btn-outline-success">Read More</a>
+        </div>
+        <div class="col-6">
+          <img
+            src="img/images/about.png"
+            class="img-fluid"
+            style="width: 550px"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- about end -->
+    <!-- cards start  -->
+    <div class="container-fluid my-5 bg-success">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 gy-5">
+        <div class="col">
+          <h4 class="card-title my-5 ms-5">Kart Başlık 1</h4>
 
+          <div class="card bg-success bg-opacity-75 w-75 my-5 ms-3 g-0">
+            <img
+              src="img/images/offer1.png"
+              class="card-img-top rounded-start"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum
+                corrupti neque cumque modi beatae quo molestiae, laborum facere
+                magni maiores. Hic earum laboriosam quos molestiae quasi eum,
+                corporis porro illum? Rem veritatis exercitationem
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <h4 class="card-title my-5 ms-5">Kart Başlık 2</h4>
 
+          <div class="card bg-success bg-opacity-75 w-75 my-5 ms-3 g-0">
+            <img
+              src="img/images/offer2.png"
+              class="card-img-top rounded-start"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum
+                corrupti neque cumque modi beatae quo molestiae, laborum facere
+                magni maiores. Hic earum laboriosam quos molestiae quasi eum,
+                corporis porro illum? Rem veritatis exercitationem
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <h4 class="card-title my-5 ms-5">Kart Başlık 3</h4>
 
+          <div
+            class="card bg-success bg-opacity-100 w-75 my-5 ms-3 g-0 rounded-start"
+          >
+            <img
+              src="img/images/offer3.png"
+              class="card-img-top rounded-start"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum
+                corrupti neque cumque modi beatae quo molestiae, laborum facere
+                magni maiores. Hic earum laboriosam quos molestiae quasi eum,
+                corporis porro illum? Rem veritatis exercitationem
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--cards end-->
+    <section class="container">
+      <div class="col">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d402159.9058376838!2d38.246125996840426!3d38.05001599344228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x4076374bd6fcc15b%3A0x13fdb5a4a6fdc057!2s%C3%87amurlu%2C%2044000%20Battalgazi%2FMalatya!3m2!1d38.3266983!2d38.3523359!5e0!3m2!1str!2str!4v1662669070000!5m2!1str!2str"
+          style="border: 0; width: 75rem; height: 600px; margin-right: 5"
+          class="pt-0 my-0 g-0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        >
+        </iframe>
+        <form class="mt-5">
+          <div class="mb-3">
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              aria-describedby="nameHelper"
+              placeholder="name"
+            />
+          </div>
+          <div class="mb-3">
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              aria-describedby="nameHelper"
+              placeholder="email"
+            />
+          </div>
+          <div class="mb-3">
+            <input
+              type="tel"
+              class="form-control"
+              id="phone"
+              aria-describedby="nameHelper"
+              placeholder="Phone"
+            />
+          </div>
+          <div class="mb-3 row">
+            <div class="col">
+              <textarea class="form-control" placeholder="message"></textarea>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <footer class="bg-success text-white pt-5 pb-4">
+      <div class="container text-center text-md-left">
+        <div class="row text-center text-md-left">
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <img src="img/images/logo.png" alt="" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi et
+              soluta doloribus aperiam voluptatum ab, molestias voluptates sed
+              vitae, quae fugiat voluptatibus rerum laudantium delectus mollitia
+              distinctio! Obcaecati, incidunt. Quam!
+            </p>
+          </div>
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 fw-bold">Quick Links</h5>
+            <p>
+              <a href="#" class="text-white" style="text-decoration: none"
+                >Maintenance</a
+              >
+            </p>
+            <p>
+              <a href="#" class="text-white" style="text-decoration: none"
+                >Join Us</a
+              >
+            </p>
+            <p>
+              <a href="#" class="text-white" style="text-decoration: none"
+                >Packs</a
+              >
+            </p>
+            <p>
+              <a href="#" class="text-white" style="text-decoration: none"
+                >Releases
+              </a>
+            </p>
+          </div>
+          <div class="colmd-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 fw-bold">Contact Us</h5>
+            <p>
+              <a href="#" class="text-center"
+                ><img
+                  src="img/icon/email1.png"
+                  alt="mail"
+                  class=""
+                />demo@gmail.com</a
+              >
+            </p>
+            <p>
+              <a href="#"
+                ><img
+                  src="img/icon/call1.png"
+                  class=""
+                  class=""
+                  alt=""
+                />+905454447777</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
 
-
-
-
-
-
-
-     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
