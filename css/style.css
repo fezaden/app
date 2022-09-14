@@ -8,7 +8,7 @@
 }
 .my-slide h2 {
   color: #5be631c8;
-  font-size: 50px;
+  font-size: 40px;
 }
 .my-slider h2 {
   color: #5be631c8;
@@ -16,6 +16,7 @@
 
 .my-slide .container h1 {
   font-size: 5rem;
+  margin-left: auto;
 }
 h1,
 h2,
